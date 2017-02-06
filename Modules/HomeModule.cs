@@ -13,6 +13,9 @@ namespace FriendLetter
         myLetterVariables.SetSender("John");
         return View["hello.cshtml", myLetterVariables];
       };
+      Get["/form"] = _ => {
+        return View["form.cshtml"];
+      };
     }
   }
 }
