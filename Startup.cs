@@ -16,7 +16,7 @@ namespace FriendLetter
   {
     public string GetRootPath()
     {
-      return Directory.GetCurrent Directory();
+      return Directory.GetCurrentDirectory();
     }
   }
 }
